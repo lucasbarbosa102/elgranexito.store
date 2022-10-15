@@ -1,0 +1,369 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Reset */
+body {
+	background: #000000 url("../img/bg-dollar.webp") 50% 0 no-repeat !important;
+}
+/* Reset */
+
+/* Heander */
+section.faixa {
+    background: red;
+    padding: 15px 0;
+	margin: 0 auto 50px auto;
+}
+label {
+    clear: both;
+    display: block !important;
+}
+section.faixa h1 {
+    text-align: center;
+    font-size: 22px;
+    color: yellow;
+	margin: 0;
+}
+header.header h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 900;
+	letter-spacing: 1px;
+    margin: 0 auto 25px auto;
+	text-shadow: 0px 0px 9px rgba(0, 0, 0, 1);
+}
+header.header h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0 auto 25px auto;
+	text-shadow: 0px 0px 9px rgba(0, 0, 0, 1);
+}
+/* Heander */
+
+/* Conteúdo */
+.conteudo-vsl {
+    clear: both;
+    width: 80%;
+    margin: 0 auto;
+}
+.video {
+    clear: both;
+    display: block;
+    width: 100%;
+    margin: 0 auto 15px auto;
+    border: solid 2px #000000;
+}
+.conteudo-vsl h6 {
+    clear: both;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto 15px auto;
+}
+.conteudo-vsl h6 svg {
+    margin-top: -3px;
+}
+img.ocultar.setas {
+    clear: both;
+    width: 200px;
+    margin: 35px auto 0 auto;
+}
+a.cta {
+    clear: both;
+    text-align: center;
+    background: #00A116;
+    color: #ffffff !important;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 25px 0;
+    width: 50%;
+    margin: 25px auto 0 auto;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+.pulsar {
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+@keyframes pulse{
+0%,100%{transform:scale(.9);opacity:.9;}
+50%{transform:scale(1);opacity:1;}
+}
+@-webkit-keyframes pulse{
+0%,100%{-webkit-transform:scale(.95);opacity:.7}
+50%{-webkit-transform:scale(1);opacity:1}
+}
+img.selos {
+    clear: both;
+    width: 300px;
+    margin: auto;
+}
+/* Conteúdo */
+
+/* Estido FB Comments */
+.col-fb-center {
+	border: none !important;
+	margin: auto !important;
+}
+.fb-comments {
+  border: 1px solid #e9ebee;
+  border-radius: 3px;
+  padding: 0 15px;
+  padding-bottom: 15px;
+  margin: auto;
+  position: relative;
+  color: #4267b2;
+  background: #ffffff;
+}
+
+.fb-comments-header {
+  padding: 15px 0;
+  border-bottom: 1px solid #e9ebee;
+}
+
+.fb-comments-header span {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.fb-comments-comment {
+  border: none;
+  padding: 0;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.fb-comments-reply-wrapper {
+  margin-left: 60px;
+  border-left: 1px dotted #e9ebee;
+  padding-left: 5px;
+}
+
+tr,
+td {
+  border: none;
+  margin: 0;
+}
+
+td {
+  padding: 2.5px;
+}
+
+tr {
+  padding: 2.5px 0;
+}
+
+.fb-comments-comment-img {
+  vertical-align: top;
+  width: 48px;
+  padding-right: 5px;
+}
+
+.fb-comments-comment-img img {
+  max-width: 48px;
+  border-radius: 25px;
+}
+
+.fb-comments-comment-name {
+  font-size: 0.85em;
+}
+
+.fb-comments-comment-name name {
+  color: #365899;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-name name:hover {
+  text-decoration: underline;
+}
+
+.fb-comments-comment-name occupation {
+  color: #90949c;
+}
+
+.fb-comments-comment-text {
+  font-size: 0.9em;
+  color: #000;
+  border-radius: 21px;
+  background-color: #eaebef;
+  padding: 10px 20px;
+}
+
+.fb-comments-comment-actions like,
+.fb-comments-comment-actions reply {
+  font-size: 0.75em;
+  color: #4267b2;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-actions like.liked {
+  color: #90949c;
+}
+
+.fb-comments-comment-actions like:hover,
+.fb-comments-comment-actions reply:hover {
+  text-decoration: underline;
+}
+
+.fb-comments-comment-actions likes {
+  font-size: 13px;
+  background: url(../img/like.png);
+  background-repeat: no-repeat;
+  padding-left: 43px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  margin-top: -10px;
+  float: right;
+  background-color: #fff;
+  border: solid #eaebef;
+  border-radius: 19px;
+}
+
+.fb-comments-comment-actions date {
+  font-size: 0.75em;
+  color: #90949c;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-actions date:hover {
+  text-decoration: underline;
+}
+
+.fb-comments-loadmore {
+  background: #4080ff;
+  border: 1px solid #4080ff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 14px;
+  padding: 0.875em;
+  text-shadow: none;
+  width: 100%;
+  font-weight: 700;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.fb-reply-input {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px 7.5px;
+  font-size: 0.75em;
+  color: #000;
+  outline: none;
+}
+
+.fb-reply-input:hover,
+.fb-reply-button:hover {
+  outline: none;
+}
+
+.fb-reply-button {
+  background: #4080ff;
+  border: 1px solid #4080ff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 0.75em;
+  padding: 5px 7.5px;
+  text-shadow: none;
+  width: 100%;
+  font-weight: 700;
+  cursor: hand;
+  cursor: pointer;
+  outline: none;
+}
+
+.bbtn {
+  width: 100%;
+  max-width: 449px;
+}
+/* Estido FB Comments */
+
+/* Footer */
+footer.footer {
+	background: #000000;
+	padding: 75px 0;
+}
+footer.footer p {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 0 15px 0;
+    color: #fafafa;
+}
+.links {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 0 auto 25px auto;
+}
+.links a {
+    font-size: 12px;
+}
+.links span {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0 15px;
+}
+/* Footer */
+
+/* Responsivo */
+@media (max-width: 700px) {
+	body {
+		background: #000000 url(../img/bg-dollar.webp) 17% -2px no-repeat !important;
+		background-attachment: fixed !important;
+	}
+	section.faixa {
+		background: red;
+		padding: 10px 0;
+		margin: 0 auto 35px auto;
+	}
+	label {
+		clear: both;
+		display: block;
+	}
+	section.faixa h1 {
+		text-align: center;
+		font-size: 18px;
+		color: yellow;
+	}	
+	header.header h2 {
+		font-size: 17px;
+	}
+	header.header h3 {
+		font-size: 16px;
+	}
+	.conteudo-vsl {
+		width: 100%;
+	}
+	img.ocultar.setas {
+		width: 125px;
+	}
+	a.cta {
+		width: 100%;
+		font-size: 20px;
+		padding: 20px 0;
+	}
+	footer.footer {
+		margin-top: 250px;
+	}	
+}
+/* Responsivo */
