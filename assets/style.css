@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body {
+	background: #000000 !important;
+}
 /* CSS Document */
 
 /* Header */
@@ -27,6 +30,7 @@ section.conteudo h2 {
     font-size: 35px;
     text-transform: uppercase;
     font-weight: 900;
+	color: #ffffff;
     margin: 0 auto 35px auto;
 }
 section.conteudo h2 i {
@@ -36,6 +40,7 @@ section.conteudo h2 i {
 section.conteudo h3 {
     text-align: center;
     font-size: 14px;
+	color: #ffffff;	
     margin: 25px auto 15px auto;
 }
 section.conteudo h4 {
@@ -44,6 +49,7 @@ section.conteudo h4 {
     text-align: center;
     font-size: 25px;
     font-weight: 700;
+	color: #ffffff;	
 	margin: 15px auto 15px auto;
 }
 section.conteudo h4 svg {
@@ -218,12 +224,13 @@ tr {
 
 /* Rodapé */
 footer.footer {
-	background: #fafafa;
+	background: #000000;
 	padding: 35px 0;
 	margin: 50px auto 0 auto;
 }
 footer.footer p {
 	text-align: center;
+	color: #fafafa;
 	font-size: 10px;
 }
 .termos {
